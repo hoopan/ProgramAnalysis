@@ -1,0 +1,11 @@
+1.emoji面板显示gif
+    ChatActivityEnterView() ChatActivityEnterView.java
+     emojiButton.setOnClickListener
+      showPopup
+       EmojiView.setVisibility EmojiView.java
+        StickersQuery.loadRecents
+
+2.emoji面板添加最近使用的gif
+    SendMessagesHelper.performSendMessageRequest SendMessagesHelper.java
+     SendMessagesHelper.updateMediaPaths
+      StickersQuery.addRecentGif
