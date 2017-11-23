@@ -3,9 +3,12 @@
      emojiButton.setOnClickListener
       showPopup
        EmojiView.setVisibility EmojiView.java
-        StickersQuery.loadRecents
+        StickersQuery.loadRecents StickersQuery.java
 
 2.emoji面板添加最近使用的gif
     SendMessagesHelper.performSendMessageRequest SendMessagesHelper.java
      SendMessagesHelper.updateMediaPaths
-      StickersQuery.addRecentGif
+      StickersQuery.addRecentGif StickersQuery.java
+
+3.点击emoji弹出面板gif数据来源
+    EmojiView.checkDocuments EmojiView.java
