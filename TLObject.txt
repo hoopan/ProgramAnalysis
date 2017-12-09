@@ -1,0 +1,3 @@
+单聊发送文本消息
+ TLRPC.TL_messages_sendMessage
+  {constructor int 32, flags int 32, InputPeer peer {constructor int 32,user_id int 32,access_hash long 64},message String(第一个字节为字符串长度), }
